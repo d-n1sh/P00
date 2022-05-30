@@ -60,6 +60,7 @@ public class CalculatorTest {
 		assertEquals (expected, actual);
 	}
 
+	@Test
 	public void testSubtract() {
 		//fail("Not yet implemented");
 		int a = Helper.readInt("Enter integer A: ");
@@ -72,6 +73,7 @@ public class CalculatorTest {
 		assertEquals (expected, actual);
 	}
 	
+	@Test
 	public void testMultiply() {
 		//fail("Not yet implemented");
 		int a = Helper.readInt("Enter integer A: ");
@@ -84,6 +86,7 @@ public class CalculatorTest {
 		assertEquals (expected, actual);
 	}
 	
+	@Test
 	public void testDivide() {
 		//fail("Not yet implemented");
 		int a = Helper.readInt("Enter integer A: ");
@@ -96,6 +99,4 @@ public class CalculatorTest {
 		assertEquals (expected, actual);
 	}	
 	
-}
-
 }
